@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+
+header {
+  border: 2px solid red;
+  height: 116px;
+}
+
+.siteHeader {
+  border: 2px solid green;
+  width: 1120px;
+  height: 116px;
+  margin: auto;
+  
+  position: relative;
+
+}
+
+.logo {
+  position: absolute;
+  left: 0px;
+  top: 47px;
+
+  color: var(--text-black, #1C2A39);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header-books {
+  position: absolute;
+  left: -166px + 537px;
+  top: 56px;
+
+  color: var(--text-black, #1C2A39);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header-audiobooks {
+  position: absolute;
+  left: -166px + 616px;;
+  top: 56px;
+
+  color: var(--text-gray, #5C6A79);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header-Stationery {
+  position: absolute;
+  left: -166px + 730px;
+  top: 56px;
+
+  color: var(--text-gray, #5C6A79);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header-blog {
+  position: absolute;
+  left: -166px + 879px;;
+  top: 56px;
+
+  color: var(--text-gray, #5C6A79);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header-img-icons {
+  position: absolute;
+  left: -166px + 1161px;
+  top: 53px;
+
+  //background-image: url("/src/style/icons.svg");
+} 
+
+main {
+  border: 2px solid blue;
+}
+
+.siteMain {
+  border: 2px solid black;
+  min-height: 800px;
+}
+
+.banner_img {
+  margin: auto; 
+  width: 1120px;
+  height: 702px;
+  
+}
